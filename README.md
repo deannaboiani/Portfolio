@@ -1,4 +1,4 @@
-# Portfolio 	/appveyor/build/:user/:repo
+# Portfolio 	
 Responsive Portfolio of my work so far. This will be an ongoing updated website as my portfolio and skills progress.
 
 https://deannaboiani.github.io/Portfolio/
