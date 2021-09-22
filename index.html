@@ -6,7 +6,9 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./Assets/style.css">
 </head>
+
 <body>
+  <!-- start of the webpage with header bar and links -->
     <header>
         <h1>DeAnna Boiani's Portfolio</h1>
         <nav>
@@ -19,50 +21,72 @@
     </header>
 
     <main>
-        <section id="about" class="about">
-            <h1 class="side">About Me</h1>
-            
-            <img src="./Assets/Images/profile-pic.jpg" alt="Profile Pic">
+      <!-- banner image spanning across page -->
+      <section class="banner">
+        <img src="./Assets/Images/Technology-Website-Banner.png" alt="tech space picture">
+      </section>
 
-            <p>Cupcake ipsum dolor sit amet. Biscuit muffin chocolate bar tootsie roll wafer icing powder chocolate cake. Brownie sesame snaps chupa chups donut sweet roll halvah. Apple pie halvah gingerbread cupcake candy muffin dragée topping cookie. Bear claw pie sweet toffee chocolate cake donut dragée cake. Icing chocolate cake chocolate chocolate jujubes sugar plum sweet jelly. Dragée muffin lemon drops fruitcake brownie topping tootsie roll. Muffin topping jelly beans sweet jelly. Shortbread liquorice candy canes caramels wafer cake oat cake dragée jujubes. Biscuit jujubes cotton candy ice cream cake topping. Cotton candy sweet cookie lemon drops apple pie shortbread croissant. Gummies fruitcake gingerbread pastry candy canes cookie chocolate cake cupcake. Sesame snaps sweet gummi bears dragée jelly wafer. Bear claw tootsie roll shortbread jelly tiramisu sugar plum marshmallow.</p>
+      <section id="about" class="about">
+        <!-- about section with avatar and cupcake ipsum -->
+        <div>
+          <h1>About Me</h1>
+        </div>
+       
+        <div>
+          <img src="./Assets/Images/profile-pic.jpg" alt="Profile Pic">
+        </div>
 
-            <p> claw cupcake halvah marzipan toffee cake candy. Pie oat cake tootsie roll liquorice dragée chocolate cake. Gingerbread cotton candy soufflé caramels lollipop icing cheesecake sugar plum gummi bears. Lollipop lollipop caramels biscuit tart pastry tart croissant sugar plum. Sesame snaps sesame snaps pie chocolate marzipan candy muffin cake. Bonbon chocolate chocolate liquorice halvah. Tootsie roll danish cookie biscuit apple pie chocolate bar tart fruitcake. Pie toffee tiramisu cookie tiramisu. Jelly-o tart wafer cotton candy tootsie roll jelly-o jelly beans wafer. Cookie soufflé cheesecake oat cake marshmallow cake pie. Jujubes croissant brownie soufflé croissant. Cake ice cream bear claw cotton candy lollipop. Chocolate bar jelly jelly-o macaroon marzipan dessert halvah.</p>
+        <div>
+          <p>Cupcake ipsum dolor sit amet. Biscuit muffin chocolate bar tootsie roll wafer icing powder chocolate cake. Brownie sesame snaps chupa chups donut sweet roll halvah. Apple pie halvah gingerbread cupcake candy muffin dragée topping cookie. Bear claw pie sweet toffee chocolate cake donut dragée cake. Icing chocolate cake chocolate chocolate jujubes sugar plum sweet jelly. </p>
+
+          <br>
+
+          <p>Dragée muffin lemon drops fruitcake brownie topping tootsie roll. Muffin topping jelly beans sweet jelly. Shortbread liquorice candy canes caramels wafer cake oat cake dragée jujubes. Biscuit jujubes cotton candy ice cream cake topping. Cotton candy sweet cookie lemon drops apple pie shortbread croissant. Gummies fruitcake gingerbread pastry candy canes cookie chocolate cake cupcake. Sesame snaps sweet gummi bears dragée jelly wafer. Bear claw tootsie roll shortbread jelly tiramisu sugar plum marshmallow.</p>
+        </div>
+      </section>
+
+      <!-- section to the side for "work" title -->
+      <aside> 
+          <h2>Work</h2>
+      </aside>  
+
+      <!-- interactive image links to external sites -->
+      <section  class="work" id="work">
+
+          <figure class="center">
+            <div class="opacity">
+              <a href="https://deannaboiani.github.io/prework-about-me/" target="_blank"> 
+                <img src="./Assets/Images/prework.jpeg.png" alt="screenshot of About Me page"></a> 
+            </div>
+          </figure>
+        </section>
+
+        <section class="work">
+          <figure class="box">
+            <div class="opacity">
+            <a href="https://deannaboiani.github.io/Landing_Page/" target="_blank">
+                <img src="./Assets/Images/landing-page.png" alt="screenshot of landing page"></a>
+            </div>
+          </figure>
+
+          <figure class="box">
+            <div class="opacity">
+              <a href="https://deannaboiani.github.io/Code_Refractor/" target="_blank">
+              <img src="./Assets/Images/code-refractor.png"></a>
+            </div>
+          </figure>
 
         </section>
-        <section class="work" id="work">
-        <figure class="pre">
-            <img src="./assets/images/prework" alt="screenshot of About Me page">
-            <h2>About Me</h2>
-            <p>
-                This is the first uploaded repository on Github.
-            </p>
-        </figure>
-        <figure class="coder">
-            <img src="./assets/images/coderefractor" alt="screenshot of code refractor site">
-            <h2>Code Refractor</h2>
-            <p>The image will bring you to a page I reworked for a client. In this work, I made all the links work properly and clean up the code to follow the accessibility structure and proper semantics.</p>
-        </figure>
-        <figure class="repo">
-            <img src="./assets/images/firstrepo" alt="screenshot of firstrepo site">
-            <h2>First Repo</h2>
-            <p>This is technically the second repo I have made. This is the first repo that I have made in bootcamp.</p>
-        </figure>
-        <figure class="landing">
-            <img src="./assets/images/landingpage" alt="screenshot of landing page">
-            <h2>Landing Page</h2>
-            <p>This pitcure will bring you to a landing page for a Corgi adoption site</p>
-        </figure>
-        </section>
-        <section class="contact">
-            <h3>Contact Me</h3>
-                <button><a href="mailto:deannaboiani@gmail.com">Email</a></button>
-                <a href="https://www.linkedin.com/in/deannaboiani/">LinkedIn</a>
-                <a href="https://github.com/deannaboiani">GitHub</a>
-        </section>
+        </main>
 
-    </main>
-
-    <footer>
+        <!-- footer with contact information and links -->
+        <footer id="contact">
+            <h2>Contact Me</h2>
+              <ul>
+                <li><button><a href="mailto:deannaboiani@gmail.com">Email</a></button></li>
+                <li><a href="https://www.linkedin.com/in/deannaboiani/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/deannaboiani" target="_blank">GitHub</a></li>
+               </ul> 
         <h4>&#10024; Made with HTML/CSS by DeAnna Boiani &#10024;</h4>
 
     </footer>
