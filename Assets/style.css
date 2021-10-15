@@ -150,3 +150,8 @@ footer ul {
     display: flex;
     font-weight: bold;
 }
+
+#dinner {
+    width:75%;
+    height: auto;
+}
