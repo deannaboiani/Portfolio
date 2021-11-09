@@ -66,6 +66,7 @@ main {
 }
 
 .about {
+    padding-left: 20px;
     display: flex;
 }
 
@@ -78,7 +79,7 @@ main {
 }
 
 .about p {
-    margin-left: 20px;
+    /* margin-left: 20px; */
     padding-left: 20px;
     line-height: 30px;
     border-left: 3px dotted black;
@@ -86,11 +87,19 @@ main {
 
 .work {
     border-top: 3px dotted black;
+    border-left: 3px dotted black;
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
  }
 
+ .work img {
+     max-width: 100%;
+ }
+
+ aside {
+     padding-left: 20px;
+ }
 
 /* placed on the left of the screen */
 aside {
@@ -110,7 +119,7 @@ aside {
 
 .center {
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     height: auto;
     margin: auto;
 }
@@ -118,6 +127,7 @@ aside {
 .center img {
     width: 100%;
     padding: 5px;
+    display: block;
 }
 
 

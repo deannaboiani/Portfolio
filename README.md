@@ -3,7 +3,7 @@ Responsive Portfolio of my work so far. This will be an ongoing updated website 
 
 https://deannaboiani.github.io/Portfolio/
 
-<img width="1401" alt="portfolio-screenshot" src="https://user-images.githubusercontent.com/89818334/134292718-3ea09779-5473-4aea-be41-62765fd95775.png">
+<img width="1401" alt="portfolio-screenshot" src="https://user-images.githubusercontent.com/89818334/141016551-33649b5d-9615-446b-95da-a46682993bfc.png">
 
 
 List of website abilities
